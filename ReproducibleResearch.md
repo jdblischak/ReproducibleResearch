@@ -3,7 +3,7 @@ name: ReproducibleResearch
 topic: Reproducible Research
 maintainer: John Blischak, Alison Hill, Ben Marwick, Daniel Sjoberg, Will Landau
 email: jdblischak@gmail.com
-version: 2025-10-08
+version: 2026-03-09
 source: https://github.com/cran-task-views/ReproducibleResearch/
 ---
 
@@ -35,8 +35,7 @@ document type/markup language:
 ## LaTeX
 
 Both `Sweave` and `r pkg("knitr")` can process LaTeX files.
-`r pkg("lazyWeave")` can create LaTeX documents from
-scratch. `r pkg("RweaveExtra")` provides Sweave drivers with
+`r pkg("RweaveExtra")` provides Sweave drivers with
 additional options to control processing and output.
 
 The `r pkg("knitr")` and `r pkg("rmarkdown")`
@@ -59,7 +58,7 @@ Object Conversion Functions:
   `r pkg("codebook")`
 - *tables/cross-tabulations*:
   `r pkg("gtsummary")`, `r pkg("Hmisc")`,
-  `r pkg("huxtable")`, `r pkg("lazyWeave")`,
+  `r pkg("huxtable")`,
   `r pkg("knitLatex")`, `r pkg("knitr")`,
   `r pkg("reporttools")`,
   `r pkg("table1")`,
@@ -90,8 +89,6 @@ Miscellaneous Tools
 The `r pkg("knitr")` package can process HTML files
 directly. `Sweave` can also work with HTML by way of the
 `r pkg("R2HTML", priority = "core")` package.
-`r pkg("lazyWeave")` can create HTML format documents from
-scratch.
 
 For HTML slides, a combination of the `r pkg("knitr")` and
 `r pkg("rmarkdown")` packages (along with
@@ -119,7 +116,7 @@ Object Conversion Functions:
   `r pkg("gtsummary")`,
   `r pkg("htmlTable")`, `r pkg("HTMLUtils")`,
   `r pkg("huxtable")`, `r pkg("hwriter")`,
-  `r pkg("knitr")`, `r pkg("lazyWeave")`,
+  `r pkg("knitr")`,
   `r pkg("table1")`,
   `r pkg("texreg")`, `r pkg("ztable")`
 - *statistical models/methods*:
@@ -137,8 +134,7 @@ Tufte-style handouts.
 The `r pkg("knitr")` package can process markdown files
 without assistance. The packages `r pkg("markdown")` and
 `r pkg("rmarkdown")` have general tools for working with
-documents in this format. `r pkg("lazyWeave")` can create
-markdown format documents from scratch. Also, the
+documents in this format. Also, the
 `r pkg("ascii")` package can write R objects to the
 [AsciiDoc](https://asciidoc.org/) format.
 
@@ -149,7 +145,7 @@ Object Conversion Functions:
   `r pkg("formattable")`,
   `r pkg("gtsummary")`,
   `r pkg("htmlTable")`, `r pkg("knitr")`,
-  `r pkg("lazyWeave")`, `r pkg("papeR")`,
+  `r pkg("papeR")`,
   `r pkg("parameters")`
 - *statistical models/methods*:
   `r pkg("gtsummary")`, `r pkg("pander")`,

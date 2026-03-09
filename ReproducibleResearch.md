@@ -226,9 +226,6 @@ package installs packages in project-specific directory, records
 "snapshots" of the current package versions in a "lockfile", and
 restores the package setup on a different machine.
 
-- `r pkg("checkpoint")`: Allows you to install packages as
-  they existed on CRAN on a specific snapshot date as if you had a
-  CRAN time machine.
 - `r github("o2r-project/containerit")` (GitHub only): Package R sessions,
     scripts, workspace directories, and R Markdown documents together with all
     dependencies to execute them in Docker containers.

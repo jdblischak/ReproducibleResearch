@@ -331,9 +331,6 @@ the `src/` subdirectory.
   results used in reproducible scientific analyses. A TAF analysis
   consists of four scripts (data.R, model.R, output.R, report.R) that
   are run sequentially.
-- `r pkg("tinyProject")`: Creates useful files and folders
-  for data analysis projects and provides functions to manage data,
-  scripts and output files.
 - `r pkg("worcs")`: Create reproducible and transparent
   research projects in 'R'. This package is based on the Workflow
   for Open Reproducible Code in Science (WORCS), a step-by-step

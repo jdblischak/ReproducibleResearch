@@ -3,7 +3,7 @@ name: ReproducibleResearch
 topic: Reproducible Research
 maintainer: John Blischak, Alison Hill, Ben Marwick, Daniel Sjoberg, Will Landau
 email: jdblischak@gmail.com
-version: 2026-03-09
+version: 2026-08-05
 source: https://github.com/cran-task-views/ReproducibleResearch/
 ---
 
@@ -59,7 +59,7 @@ Object Conversion Functions:
 - *tables/cross-tabulations*:
   `r pkg("gtsummary")`, `r pkg("Hmisc")`,
   `r pkg("huxtable")`,
-  `r pkg("knitLatex")`, `r pkg("knitr")`,
+  `r pkg("knitr")`,
   `r pkg("reporttools")`,
   `r pkg("table1")`,
   `r pkg("ztable")`
